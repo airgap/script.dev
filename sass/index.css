@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap");
+html {
+  background: color(srgb 0.157 0.165 0.208);
+  color: white;
+  font-family: "QuattroV", "DM Mono", sans-serif;
+}
+html h1, html h2 {
+  text-align: center;
+}
+html #book {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html #book h2, html #book h3 {
+  text-align: center;
+}
+html #book table tr td {
+  line-height: 2em;
+  padding: 10px;
+  width: auto;
+}
+html #book table tr td:first-child {
+  text-align: right;
+  vertical-align: top;
+}
+html #book table tr td .action {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=index.css.map */

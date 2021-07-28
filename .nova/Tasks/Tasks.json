@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\n.\/build.sh\n"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nrm -rf html\/css\nrm -rf html\/js\n"
+    }
+  },
+  "identifier" : "BECF085E-90E8-45AA-A0F5-E5F8206431BE",
+  "openLogOnRun" : "fail"
+}

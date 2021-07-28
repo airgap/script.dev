@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"rootDir": "ts",
+		"outDir": "html/js",
+		"target": "ES2021",
+		"moduleResolution": "classic",
+		"module": "ES2020",
+		"strict": true
+	}
+}
